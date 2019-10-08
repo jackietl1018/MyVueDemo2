@@ -35,6 +35,8 @@
     height: 44px
     line-height: 44px
     float: left 
+    .back-icon
+      margin-left: 14px
   .header-input 
     flex: 1 
     height: 30px

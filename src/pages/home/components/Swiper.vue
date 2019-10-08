@@ -17,8 +17,8 @@ export default {
                 pagination: '.swiper-pagination',
                 paginationClickable:true,      //这行使得点击轮播图里小圆点时，能够滑动
                 speed:1000,                    //点击小圆点滑动的速度为1000毫秒（1秒）
-                autoplayDisableOnInteraction : false,
-                autoplay:1500,
+                autoplayDisableOnInteraction : false,     //点击小圆点时，仍然不影响自动轮播。默认是true，可以试试把这行代码注释掉的效果
+                autoplay:1500,                 //自动播放，每隔1.5秒播下一张图片
                 loop: true
             },
             swiperList: [

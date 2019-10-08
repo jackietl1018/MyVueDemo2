@@ -15,8 +15,10 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 0;
+}
+body{
+  margin: 0;
+  padding: 0;      /* 将body的默认margin消除（一般是8px，不同的浏览器可能不一样） */ 
 }
 </style>
